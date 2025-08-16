@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active hr{
+      display:block;
+}
+*{
+      font-family: Outfit;
+}
+.prata-regular{
+      font-family: "Prata",serif;
+      font-weight: 400;
+      font-style: normal;
+}
+::-webkit-scrollbar{
+      display: none;
+      
+}
+.custom-swiper-nav .swiper-button-prev,
+.custom-swiper-nav .swiper-button-next {
+  font-size: 16px;     /* decrease icon size */
+  width: 25px;          /* decrease button width */
+  height: 25px;         /* decrease button height */
+}
+
+/* Optional: shrink the icon inside */
+.custom-swiper-nav .swiper-button-prev::after,
+.custom-swiper-nav .swiper-button-next::after {
+  font-size: 16px;
+}
+@media (max-width:640px){
+      a.active{
+            background-color: black;
+            color: antiquewhite;
+      }
+}
